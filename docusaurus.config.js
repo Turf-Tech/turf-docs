@@ -8,17 +8,17 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 const config = {
   title: "Turf App Docs",
   tagline: "Turf App Docs",
-  url: "https://0xturf.gg",
-  baseUrl: "/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
   favicon: "img/favicon-svg.svg",
   trailingSlash: false,
-
+  
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: "turf",
-  projectName: "turf docs",
+  url: 'https://turf-tech.github.io/',
+  baseUrl: "/turf-docs",
+  organizationName: "Turf-Tech",
+  projectName: "turf-docs",
 
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
