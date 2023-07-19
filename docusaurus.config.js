@@ -8,7 +8,7 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 const config = {
   title: "Turf App Docs",
   tagline: "Turf App Docs",
-  onBrokenLinks: "throw",
+  onBrokenLinks: "log",
   onBrokenMarkdownLinks: "warn",
   favicon: "img/favicon-svg.svg",
   trailingSlash: false,
@@ -19,6 +19,7 @@ const config = {
   baseUrl: "/turf-docs",
   organizationName: "Turf-Tech",
   projectName: "turf-docs",
+  deploymentBranch: "deploy",
 
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
@@ -238,17 +239,17 @@ const config = {
       },
     }),
   plugins: [
-    [
-      "@docusaurus/plugin-client-redirects",
-      {
-        redirects: [
-          {
-            from: "/nightly/guide/install",
-            to: "/nightly/welcome/install",
-          },
-        ],
-      },
-    ],
+    // [
+    //   "@docusaurus/plugin-client-redirects",
+    //   {
+    //     redirects: [
+    //       {
+    //         from: "/nightly/guide/install",
+    //         to: "/nightly/welcome/install",
+    //       },
+    //     ],
+    //   },
+    // ],
     async function myPlugin(context, options) {
       return {
         name: "docusaurus-tailwindcss",
