@@ -16,7 +16,7 @@ const config = {
     // GitHub pages deployment config.
     // If you aren't using GitHub pages, you don't need these.
     url: 'https://turf-tech.github.io/',
-    baseUrl: './turf-docs',
+    baseUrl: '/',
     organizationName: 'Turf-Tech',
     projectName: 'turf-docs',
     deploymentBranch: 'deploy',
