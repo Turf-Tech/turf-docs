@@ -44,6 +44,7 @@ const config = {
                 docs: {
                     versions: {
                         current: {
+                            label: 'v1.0.0',
                             path: '/',
                             badge: true,
                             banner: 'none', // put 'none' to remove
