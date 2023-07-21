@@ -4,8 +4,8 @@
   <ShortName>Turf App Docs</ShortName>
   <Description>Search Turf App Docs</Description>
   <InputEncoding>UTF-8</InputEncoding>
-  <Image width="16" height="16" type="image/x-icon">https://turf-tech.github.io/img/favicon-svg.svg</Image>
-  <Url type="text/html" method="get" template="https://turf-tech.github.io/search?q={searchTerms}"/>
-  <Url type="application/opensearchdescription+xml" rel="self" template="https://turf-tech.github.io/opensearch.xml" />
-  <moz:SearchForm>https://turf-tech.github.io/</moz:SearchForm>
+  <Image width="16" height="16" type="image/x-icon">https://turf-tech.github.io/turf-docs/img/favicon-svg.svg</Image>
+  <Url type="text/html" method="get" template="https://turf-tech.github.io/turf-docs/search?q={searchTerms}"/>
+  <Url type="application/opensearchdescription+xml" rel="self" template="https://turf-tech.github.io/turf-docs/opensearch.xml" />
+  <moz:SearchForm>https://turf-tech.github.io/turf-docs/</moz:SearchForm>
 </OpenSearchDescription>
